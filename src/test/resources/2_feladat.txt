@@ -1,0 +1,5 @@
+Kategória; Leírás; Kedvezmény mértéke
+I.; 6 éven aluli gyermek; 100%
+II.;26 éven aluli magyar állampolgár; 33%
+III.;65 éven felüli magyar állampolgár; 100%
+IV.;18 év feletti felnőtt vagy több 18 éva alatti gyermekkel; 90%
