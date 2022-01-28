@@ -10,11 +10,11 @@ public class MathAlgorithms {
             return smaller;
         }
 
-        for (int i = smaller /2; i > 1; i--) {
+        for (int i = smaller /2; i > 0; i--) {
             if (smaller % i == 0 & bigger % i == 0) {
                 return i;
             }
         }
-        return -1;
+        return 1;
     }
 }

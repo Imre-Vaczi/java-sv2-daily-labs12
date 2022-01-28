@@ -19,6 +19,6 @@ class MathAlgorithmsTest {
         MathAlgorithms ma = new MathAlgorithms();
         int result = ma.lko(16, 29);
 
-        assertEquals(-1, result);
+        assertEquals(1, result);
     }
 }
