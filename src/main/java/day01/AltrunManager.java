@@ -54,15 +54,4 @@ public class AltrunManager {
         LocalDate date = LocalDate.parse(line.split(" km;")[1].trim());
         return new Altrun(distance, date);
     }
-
-    public static void main(String[] args) {
-        AltrunManager am = new AltrunManager("src/test/resources/running.csv");
-        Altrun ar = am.createAltrun("13.5 km;2021-12-01");
-        System.out.println(ar.toString());
-
-        am.readFile("src/test/resources/running.csv");
-        System.out.println(am.data.toString());
-        System.out.println(am.sumRuns(2021,12));
-        System.out.println(am.getData().toString());
-    }
 }
