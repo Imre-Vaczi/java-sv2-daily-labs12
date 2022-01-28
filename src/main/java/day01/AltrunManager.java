@@ -46,7 +46,6 @@ public class AltrunManager {
         catch (IOException ioException) {
             throw new IllegalArgumentException("Provided path is invalid, file can not be accessed.", ioException);
         }
-
     }
 
     private Altrun createAltrun(String line) {
